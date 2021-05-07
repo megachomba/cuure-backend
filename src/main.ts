@@ -14,7 +14,7 @@ async function bootstrap() {
     password: "magical_password",
     database: "rainbow_database",
     entities: [join(__dirname, "**", "*.entity.{ts,js}")],
-    logging: ["query"],
+    logging: ["error"],
   });
   await connection.synchronize();
   app.enableCors();

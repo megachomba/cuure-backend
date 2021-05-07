@@ -1,5 +1,5 @@
-import { forwardRef, Module } from "@nestjs/common";
-import { NoteModule } from "../notes/note.module";
+import { Module } from "@nestjs/common";
+
 import { PatientModule } from "../patient/patient.module";
 import { userModule } from "../user/user.module";
 

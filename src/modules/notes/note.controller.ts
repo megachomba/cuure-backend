@@ -6,7 +6,6 @@ import {
   ParseIntPipe,
   Post,
 } from "@nestjs/common";
-import { UserService } from "../user/user.service";
 import { PostNoteDto } from "./dto/post-note.dto";
 import { NoteService } from "./note.service";
 
